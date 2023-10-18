@@ -1,0 +1,64 @@
+.ref-assurance {
+  display: flex;
+  width: 30.9%;
+  border-radius: 12px;
+  background: #fff;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-bottom: 24px;
+
+  .ref-assurance-inner {
+    // width: 80.5%;
+
+    .refund {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      border-bottom: 1px solid var(--flick-stroke, #EAECF0);
+
+      .ref-ass {
+        color: var(--flick-primary-5, #2ebdb6);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      .ass-text {
+        color: var(--gray-700, #344054);
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20px;
+        margin-bottom: 51px;
+      }
+    }
+
+    .assured {
+      display: flex;
+      flex-direction: column;
+      margin-top: 48px;
+
+      .you-assured {
+        color: #2ebdb6;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 13px;
+      }
+
+      .img-text {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+
+        .assured-text {
+            color: var(--gray-700, #344054);
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+      }
+    }
+  }
+}

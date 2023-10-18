@@ -1,0 +1,243 @@
+.login {
+  overflow: hidden;
+  background: #ffffff;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  height: 100vh;
+  & .login-main {
+    width: 44.4%;
+    position: relative;
+    .login-logo {
+      margin-top: 32px;
+      margin-left: 32px;
+      margin-bottom: 96px;
+    }
+
+    & .login-main-content {
+      width: 360px;
+      margin: auto;
+
+      & .login-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        color: #151f32;
+      }
+      & .login-desc {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7f91b4;
+        margin-bottom: 32px;
+      }
+    }
+  }
+  & .login-aside {
+    width: 55.6%;
+  }
+}
+.rest-password {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  .login-rest {
+    display: flex;
+    align-items: center;
+    & .login-days {
+      font-style: normal;
+      font-weight: 450;
+      font-size: 12px;
+      line-height: 20px;
+      color: #303c53;
+    }
+  }
+  .login-rest-link:hover {
+    color: #2ea6a0;
+  }
+}
+.login-noAccount {
+  margin-top: 32px;
+  text-align: center;
+  .login-noAccount-link {
+    margin-left: 2px;
+    &:hover {
+      color: #2ea6a0;
+    }
+  }
+}
+.login-footer {
+  position: absolute;
+  bottom: 34px;
+  left: 34px;
+}
+// Aside Overview component
+
+.aside-overview {
+  width: 100%;
+  background: #f3fbfb;
+  display: flex;
+  align-items: flex-end;
+
+  .aside-overview-container {
+    width: 90%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .aside-overveiw-content {
+      width: 656px;
+      margin-bottom: 60px;
+
+      margin-top: 90px;
+      .aside-overView-title {
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        color: #151f32;
+        margin-bottom: 16px;
+      }
+
+      & .autho {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        & .autho-content {
+          .autho-name {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            color: #101828;
+          }
+          .autho-role {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            color: #475467;
+          }
+        }
+      }
+    }
+    .overviewImg {
+      width: 100%;
+    }
+  }
+}
+
+//AsideView
+
+.aside-view {
+  width: 100%;
+  background: #f3fbfb;
+  display: flex;
+  align-items: flex-end;
+  .aside-view-container {
+    width: 90%;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    .flick-logo {
+      margin-top: 32px;
+      width: 89.8px;
+      height: 30px;
+    }
+    .aside-view-content {
+      display: flex;
+      flex-direction: column;
+      width: 458px;
+      gap: 32px;
+      margin-top: 61px;
+      margin-bottom: 120px;
+      .enable-data {
+        color: var(--flick-secondary-5, #151f32);
+        font-size: 24px;
+        font-weight: 450;
+        line-height: 32px;
+      }
+      .quick-access {
+        color: var(--Flick-Subtext, #8c8f97);
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 20px;
+        width: 434px;
+      }
+      .green-bar {
+        width: 29px;
+        height: 6px;
+      }
+    }
+    .footer-link {
+      display: flex;
+      flex-direction: column;
+      .dashboard-img {
+        display: flex;
+      }
+    }
+  }
+}
+
+// Forgot password
+.forgot-password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 240px;
+
+  .forgot-password-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #151f32;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  .forgot-password-desc {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #7f91b4;
+    margin-bottom: 32px;
+  }
+}
+
+.back-to-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #303c53;
+}
+
+//Set New Password
+
+.hint {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  //   margin-top: 20px;
+  margin-bottom: 10px;
+  .hint-text {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7f91b4;
+  }
+}

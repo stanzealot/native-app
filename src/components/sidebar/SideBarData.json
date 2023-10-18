@@ -1,0 +1,41 @@
+[
+    {
+        "title":"Get started",
+        "icon":"/images/getStarted.svg",
+        "iconActive":"/images/homeActive.svg",
+        "path":"/getstarted"
+        
+    },
+    {
+        "title":"Overview",
+        "icon":"/images/overView.svg",
+        "iconActive":"/images/overviewActive.svg",
+        "path":"/overview"
+    },
+    {
+        "title":"Balance",
+        "icon":"/images/balance.svg",
+        "iconActive":"/images/balanceActive.svg",
+        "path":"/balance"
+    },
+    {
+        "title":"Payment",
+        "icon":"/images/payment.svg",
+        "iconActive":"/images/paymentActive.svg",
+        "path":"/payment"
+    },
+
+    {
+        "title":"customers",
+        "icon":"/images/datas.svg",
+        "iconActive":"/images/dataActive.svg",
+        "path":"/data-customers"
+       
+    },
+    {
+        "title":"Settings",
+        "icon":"/images/settings.svg",
+        "iconActive":"/images/settingActive.svg",
+        "path":"/settings"
+    }
+]

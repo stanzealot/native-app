@@ -1,0 +1,20 @@
+ [
+    {
+        "id":1,
+        "name":"Transfer to Bank Account",
+        "image":"/images/card.svg",
+        "digit":"1046284412"
+    },
+    {
+        "id":2,
+        "name":"Transfer between Balances",
+        "image":"/images/transfer.svg",
+        "digit":"2046284412"
+    },
+    {
+        "id":3,
+        "name":"Add New Currency",
+        "image":"/images/bank.svg",
+        "digit":"3046284412"
+    }
+]
